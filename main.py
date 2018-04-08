@@ -6,10 +6,10 @@ from time import sleep
 
 from threading import Timer
 
-api = twitter.Api(consumer_key='QlFZJ5K0rukFXiSdIyKNwwktb',
-                  consumer_secret='K1VycoGRWlK37wABnNftOpo5s6TbjhpesUAYX1E8I2dtL6orNv',
-                  access_token_key='59780885-NdJI15r5iIUtSNtq2MnqflBOxxuDEPT2zaQp1rEes',
-                  access_token_secret='uVS75jRydNlTcCpSsTgyyk3z1dJjUyT2f472E9Axi9URk')
+api = twitter.Api(consumer_key='',
+                  consumer_secret='',
+                  access_token_key='',
+                  access_token_secret='')
 
 class RepeatedTimer(object):
     def __init__(self, interval, function, *args, **kwargs):
